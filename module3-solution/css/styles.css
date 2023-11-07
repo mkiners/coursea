@@ -1,0 +1,107 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2{
+	font-size: 1.50em;
+}
+
+p{
+	font-size: 1em;
+
+}
+
+body {
+
+	font-size: 16px;
+	color: black;
+	font-family: sans-serif;
+}
+	
+/** HEADER **/
+
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  min-height: 75px;
+  margin: 0px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  margin-top: -20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: white;
+}
+#nav-list a {
+  color: black;
+  border: solid .5px lightgray;
+}
+#nav-list a:hover {
+  background: gray;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/*body */
+
+.container h1{
+  
+  margin: 10px;
+}
+
+.container .description{
+  background-color: lightgray;
+  padding: auto, 10px, auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container h2{
+  padding-top: 10px;
+}
+
+.container p {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+span a {
+  padding: 10px;
+  min-width: 100%;
+  color: black;
+}
+
+
+span a:hover{
+  background-color: darkgray;
+  text-decoration: none;
+  color: white;
+}
+
+
